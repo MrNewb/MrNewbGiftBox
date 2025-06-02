@@ -1,15 +1,23 @@
-# MrNewbGiftBox
+**# MrNewbGiftBox**
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/R5R76BIM9)
 
-## Item Configuration
+---
 
-This script includes gift box items that need to be added to your inventory system. Follow the instructions below based on your framework and inventory system.
+I was inspired to create this as a quick test for `community_bridge` callbacks — and since it's been a while since my last free release, I figured it was a good time to share something simple and useful. If you're using `community_bridge`, this should serve as a solid reference for how the callbacks work and how to integrate them into your own scripts.
+
+> **Note:** This script requires [`community_bridge`](https://github.com/The-Order-Of-The-Sacred-Framework/community_bridge) as a dependency. Be sure to have it installed and properly configured for the callbacks to function.
+
+---
+
+## 🧰 Item Configuration
+
+This script adds gift box items to your inventory system. Setup steps will vary slightly depending on the framework you use — follow the relevant instructions below.
 
 ---
 
 ## QB-Core Framework
 
-If you're using **QB-Core**, add the following items to your `qb-core/shared/items.lua` file:
+For **QB-Core**, add the following to your `qb-core/shared/items.lua`:
 
 ```lua
 starter_box = {name = 'starter_box', label = 'Starter Gift Box', weight = 1000, type = 'item', image = 'giftbox.png', unique = false, useable = true, shouldClose = true, description = 'A gift box'},
@@ -18,9 +26,9 @@ gang_kit = {name = 'gang_kit', label = 'Gang Kit', weight = 1000, type = 'item',
 
 ---
 
-## ox_inventory
+## ox\_inventory
 
-If you're using **ox_inventory**, add the following items to your `ox_inventory/data/items.lua` file:
+For **ox\_inventory**, insert the following into `ox_inventory/data/items.lua`:
 
 ```lua
 ["starter_box"] = {
@@ -48,39 +56,42 @@ If you're using **ox_inventory**, add the following items to your `ox_inventory/
 
 ---
 
-## Image Setup
+## 🖼️ Image Setup
 
-Make sure you have the `giftbox.png` image in your inventory's images folder:
-- **QB-Core**: Place in `qb-inventory/html/images/`
-- **ox_inventory**: Place in `ox_inventory/web/images/`
+Make sure `giftbox.png` is placed in your inventory image directory:
 
----
-
-## Configuration
-
-You can add more gift boxes by editing the `src/shared/config.lua` file. Each gift box should have:
-- Items with chance/always properties
-- Optional account rewards
-- Corresponding item definitions in your inventory system
+* **QB-Core**: `qb-inventory/html/images/`
+* **ox\_inventory**: `ox_inventory/web/images/`
 
 ---
 
-## Usage
+## ⚙️ Configuration
 
-### server exports:
+You can define more gift boxes in `src/shared/config.lua`. Each box can include:
+
+* A list of items with `chance` or `always` fields
+* Optional account (money) rewards
+* Matching inventory definitions (see above)
+
+---
+
+## 🚀 Usage
+
+### Server Exports:
+
 ```lua
--- Give a starter box to player
+-- Give a starter box to a player
 exports.MrNewbGiftBox:GiveGiftBox(source, "starter_box", 1)
 
--- Give a gang kit to player  
+-- Give a gang kit to a player
 exports.MrNewbGiftBox:GiveGiftBox(source, "gang_kit", 1)
 
--- You can also just give the items like normal
+-- Or use standard item-giving logic if you prefer
 ```
+
 ---
 
-## Support
+## 🤝 Support
 
-Need help? Join our Discord server: https://discord.gg/mrnewbscripts
-
-For configuration questions or issues, please don't hesitate to ask!
+Questions or need help setting it up?
+Join the Discord: [https://discord.gg/mrnewbscripts](https://discord.gg/mrnewbscripts)
