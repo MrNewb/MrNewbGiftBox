@@ -16,6 +16,7 @@ Config.Utility = {
 	Debug = true, -- Do not enable unless you know what you are doing.
 }
 
+
 -- always is optional, chance is optional, if both are not set, the item will not be given.
 -- If always is true, the item will always be given.
 -- If chance is set, the item will be given with the given chance (0.01 - 0.99).
@@ -23,9 +24,8 @@ Config.GiftBoxes = {
 	["starter_box"] = {
 		items = {
 			{ item = "water", count = 2, metadata = { description = "Everyone who ever drank this has died."}, always = true },
-			{ item = "sandwich", count = 1, chance = 0.5 },
 			{ item = "phone", count = 1, always = true },
-			{ item = "firstaidkit", count = 1, chance = 0.2 },
+			{ item = "sandwich", count = 1, chance = 0.2 },
 			{ item = "bandage", count = 3, chance = 0.5 },
 		},
 		account = { accountType = "bank", amount = 500, always = true },
