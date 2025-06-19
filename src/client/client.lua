@@ -18,11 +18,11 @@ Bridge.Callback.Register('MrNewbGiftBox:Callback:PlayAnimation', function(itemLa
             pos = vector3(0.00, -0.19, -0.16),
             rot = vector3(0.0, 0.0, 0.0),
         },
-    }, function(_success)
-        if _success then
-            success = true
-        else
+    }, function(cancelled)
+        if cancelled then
             success = false
+        else
+            success = true
         end
     end)
     return success
