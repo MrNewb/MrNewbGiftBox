@@ -20,3 +20,9 @@ function AddItem(src, item, count, slot, metadata)
     if not src or not item or not count then return end
     return Bridge.Inventory.AddItem(src, item, count, slot, metadata)
 end
+
+function AddMoney(src, amount, accountType)
+    if not src or not amount then return end
+    accountType = accountType or "bank"
+    return Bridge.Framework.AddAccountBalance(src, accountType, amount, "Giftbox Reward")
+end
