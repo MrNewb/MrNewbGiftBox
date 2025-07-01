@@ -1,6 +1,6 @@
 {
   "GiftBox": {
-    "ProgressBarText": "開いています ",
+    "ProgressBarText": "開いています %s",
     "Failed": "ギフトボックスの開封がキャンセルされました！",
     "Rewarded": "ギフトボックスの開封に成功し、報酬を受け取りました！"
   }

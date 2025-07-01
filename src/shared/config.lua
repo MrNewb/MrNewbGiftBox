@@ -12,11 +12,6 @@
 
 Config = {}
 
-Config.Utility = {
-	Debug = true, -- Do not enable unless you know what you are doing.
-}
-
-
 -- always is optional, chance is optional, if both are not set, the item will not be given.
 -- If always is true, the item will always be given.
 -- If chance is set, the item will be given with the given chance (0.01 - 0.99).

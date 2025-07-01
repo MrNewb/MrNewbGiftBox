@@ -1,6 +1,6 @@
 {
   "GiftBox": {
-    "ProgressBarText": "فتح ",
+    "ProgressBarText": "فتح %s",
     "Failed": "تم إلغاء فتح صندوق الهدايا!",
     "Rewarded": "لقد نجحت في فتح صندوق الهدايا وحصلت على المكافآت!"
   }

@@ -1,6 +1,6 @@
 {
   "GiftBox": {
-    "ProgressBarText": "Openen ",
+    "ProgressBarText": "Openen %s",
     "Failed": "Cadeaudoos openen werd geannuleerd!",
     "Rewarded": "Je hebt succesvol je cadeaudoos geopend en beloningen ontvangen!"
   }

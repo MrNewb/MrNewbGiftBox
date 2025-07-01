@@ -1,6 +1,6 @@
 {
   "GiftBox": {
-    "ProgressBarText": "Açılıyor ",
+    "ProgressBarText": "Açılıyor %s",
     "Failed": "Hediye kutusu açma işlemi iptal edildi!",
     "Rewarded": "Hediye kutunuzu başarıyla açtınız ve ödüller aldınız!"
   }

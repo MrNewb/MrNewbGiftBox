@@ -1,6 +1,6 @@
 {
   "GiftBox": {
-    "ProgressBarText": "Abriendo ",
+    "ProgressBarText": "Abriendo %s",
     "Failed": "¡Se canceló la apertura de la caja de regalo!",
     "Rewarded": "¡Has abierto exitosamente tu caja de regalo y recibido recompensas!"
   }

@@ -1,6 +1,6 @@
 {
   "GiftBox": {
-    "ProgressBarText": "Avaaminen ",
+    "ProgressBarText": "Avaaminen %s",
     "Failed": "Lahjarasian avaaminen peruutettiin!",
     "Rewarded": "Olet onnistuneesti avannut lahjarasiasi ja saanut palkintoja!"
   }

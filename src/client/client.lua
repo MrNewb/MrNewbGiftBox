@@ -2,7 +2,7 @@ Bridge.Callback.Register('MrNewbGiftBox:Callback:PlayAnimation', function(itemLa
     local success = false
     Bridge.ProgressBar.Open({
         duration = 6000,
-        label = locale("GiftBox.ProgressBarText")..itemLabel,
+        label = string.format(locale("GiftBox.ProgressBarText"), itemLabel),
         disable = {
             move = true,
             combat = true

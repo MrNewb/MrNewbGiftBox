@@ -1,4 +1,6 @@
 # MrNewbGiftBox
+Please see the guide at
+https://mrnewbs-scrips.gitbook.io/guide
 
 > **Professional FiveM Gift Box System** - Community Bridge callback demonstration with customizable gift boxes for enhanced server monetization and player rewards.
 

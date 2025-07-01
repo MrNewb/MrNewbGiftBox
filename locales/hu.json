@@ -1,6 +1,6 @@
 {
   "GiftBox": {
-    "ProgressBarText": "Kinyitás ",
+    "ProgressBarText": "Kinyitás %s",
     "Failed": "Az ajándékdoboz kinyitása megszakítva!",
     "Rewarded": "Sikeresen kinyitottad az ajándékdobozodat és jutalmakat kaptál!"
   }
