@@ -51,7 +51,7 @@ https://mrnewbs-scrips.gitbook.io/guide
 <summary><strong>Step-by-Step Installation</strong></summary>
 
 ### Prerequisites
-- **[Community Bridge](https://github.com/The-Order-Of-The-Sacred-Framework/community_bridge)** - Required for callback functionality
+- **[Community Bridge](https://github.com/TheOrderFivem/community_bridge/tree/main)** - Required for callback functionality
 - **Framework** - ESX, QBCore, or Qbox (auto-detected)
 - **Inventory System** - QB-Core inventory or ox_inventory
 
