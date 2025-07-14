@@ -12,7 +12,7 @@ function GetItemPool(src, box)
     end
     if itemPool.account and verifyChance(itemPool.account) then
         local _type = itemPool.account.accountType or "bank"
-        local amount = itemPool.account.amount or 1
+        local amount = tonumber(itemPool.account.amount) or 1
         AddMoney(src, _type, amount)
     end
 end
@@ -24,7 +24,7 @@ for k, _ in pairs(Config.GiftBoxes) do
         if not success then return SendNotify(src, locale("GiftBox.Failed"), "error", 6000) end
         GetItemPool(src, k)
         SendNotify(src, locale("GiftBox.Rewarded"), "success", 6000)
-        RemoveItem(src, k, 1, nil, nil)
+        RemoveItem(src, k, 1, itemData.slot, nil)
     end)
 end
 

@@ -4,7 +4,7 @@ lua54 'yes'
 name "MrNewbGiftBox"
 description "A simple gift box system for FiveM, allowing players to open gift boxes and receive random rewards."
 author "MrNewb"
-version "0.1.2"
+version "0.1.3"
 
 shared_scripts {
 	'src/shared/config.lua',
