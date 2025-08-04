@@ -32,10 +32,5 @@ function GiveGiftBox(src, boxName, amount)
     AddItem(src, boxName or "starter_box", amount or 1, nil, nil)
 end
 
-AddEventHandler('onResourceStart', function(resourceName)
-    if GetCurrentResourceName() ~= resourceName then return end
-    Bridge.Version.VersionChecker("MrNewb/MrNewbGiftBox")
-end)
-
 exports("GiveGiftBox", GiveGiftBox)
 exports("GetItemPool", GetItemPool)
