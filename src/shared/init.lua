@@ -16,5 +16,5 @@ AddMoney = Bridge.Framework.AddAccountBalance
 
 AddEventHandler('onResourceStart', function(resource)
     if resource ~= GetCurrentResourceName() then return end
-    Bridge.Version.VersionChecker("MrNewb/patchnotes", false, true, "MrNewbGiftBox", "MrNewb/MrNewbGiftBox")
+    Bridge.Version.AdvancedVersionChecker("MrNewb/patchnotes", resource)
 end)
