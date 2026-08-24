@@ -2,6 +2,7 @@
   "GiftBox": {
     "ProgressBarText": "Otwieranie %s",
     "Failed": "Otwieranie pudełka z prezentami zostało anulowane!",
-    "Rewarded": "Pomyślnie otworzyłeś swoje pudełko z prezentami i otrzymałeś nagrody!"
+    "Rewarded": "Pomyślnie otworzyłeś swoje pudełko z prezentami i otrzymałeś nagrody!",
+    "NoSpace": "Nie masz miejsca, żeby to otworzyć."
   }
 }

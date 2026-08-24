@@ -2,6 +2,7 @@
   "GiftBox": {
     "ProgressBarText": "Openen %s",
     "Failed": "Cadeaudoos openen werd geannuleerd!",
-    "Rewarded": "Je hebt succesvol je cadeaudoos geopend en beloningen ontvangen!"
+    "Rewarded": "Je hebt succesvol je cadeaudoos geopend en beloningen ontvangen!",
+    "NoSpace": "Je hebt geen ruimte om hem te openen."
   }
 }

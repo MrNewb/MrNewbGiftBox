@@ -2,6 +2,7 @@
   "GiftBox": {
     "ProgressBarText": "Kinyitás %s",
     "Failed": "Az ajándékdoboz kinyitása megszakítva!",
-    "Rewarded": "Sikeresen kinyitottad az ajándékdobozodat és jutalmakat kaptál!"
+    "Rewarded": "Sikeresen kinyitottad az ajándékdobozodat és jutalmakat kaptál!",
+    "NoSpace": "Nincs helyed kinyitni."
   }
 }

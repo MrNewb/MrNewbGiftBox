@@ -1,35 +1,40 @@
 fx_version 'cerulean'
 game 'gta5'
 lua54 'yes'
-name "MrNewbGiftBox"
-description "A simple gift box system for FiveM, allowing players to open gift boxes and receive random rewards."
-author "MrNewb"
-version "0.1.4"
+
+name 'MrNewbGiftBox'
+author 'MrNewb'
+description 'Configurable gift box loot tables with optional cash rewards'
+version '1.0.0'
 
 shared_scripts {
-	'src/shared/config.lua',
-	'src/shared/init.lua',
+    '@ox_lib/init.lua',
+    '@Newb_Bridge/import.lua',
+    'resource/shared/locale.lua',
 }
 
 client_scripts {
-	'src/client/**/*.lua',
+    'resource/client/gift_box.lua',
 }
 
 server_scripts {
-	'src/server/*.lua',
+    'configs/config.lua',
+    'resource/server/gift_box.lua',
 }
 
 files {
-	'locales/*.json',
+    'locales/*.json',
 }
 
 dependencies {
+    '/server:6116',
     '/onesync',
-	'community_bridge',
+    'ox_lib',
+    'Newb_Bridge',
 }
 
 escrow_ignore {
-	'src/shared/*.lua',    -- Config files
-	'src/client/*.lua',    -- open files
-	'src/server/*.lua',    -- open files
+    'configs/*.lua',
+    'locales/*.json',
+    'resource/**/*.lua',
 }

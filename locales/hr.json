@@ -2,6 +2,7 @@
   "GiftBox": {
     "ProgressBarText": "Otvaranje %s",
     "Failed": "Otvaranje kutije s poklonima je otkazano!",
-    "Rewarded": "Uspješno ste otvorili svoju kutiju s poklonima i primili nagrade!"
+    "Rewarded": "Uspješno ste otvorili svoju kutiju s poklonima i primili nagrade!",
+    "NoSpace": "Nemaš mjesta da to otvoriš."
   }
 }

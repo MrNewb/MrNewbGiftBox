@@ -2,6 +2,7 @@
   "GiftBox": {
     "ProgressBarText": "開啟中 %s",
     "Failed": "禮品盒開啟已取消！",
-    "Rewarded": "您已成功開啟禮品盒並獲得獎勵！"
+    "Rewarded": "您已成功開啟禮品盒並獲得獎勵！",
+    "NoSpace": "你沒有空間打開它。"
   }
 }

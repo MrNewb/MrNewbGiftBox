@@ -2,6 +2,7 @@
   "GiftBox": {
     "ProgressBarText": "Otevírání %s",
     "Failed": "Otevírání dárkové krabice bylo zrušeno!",
-    "Rewarded": "Úspěšně jste otevřeli svou dárkovou krabici a obdrželi odměny!"
+    "Rewarded": "Úspěšně jste otevřeli svou dárkovou krabici a obdrželi odměny!",
+    "NoSpace": "Nemáš místo, abys to otevřel."
   }
 }

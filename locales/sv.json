@@ -2,6 +2,7 @@
   "GiftBox": {
     "ProgressBarText": "Öppnar %s",
     "Failed": "Öppning av presentlåda avbröts!",
-    "Rewarded": "Du har framgångsrikt öppnat din presentlåda och fått belöningar!"
+    "Rewarded": "Du har framgångsrikt öppnat din presentlåda och fått belöningar!",
+    "NoSpace": "Du har inte plats att öppna den."
   }
 }

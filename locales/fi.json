@@ -2,6 +2,7 @@
   "GiftBox": {
     "ProgressBarText": "Avaaminen %s",
     "Failed": "Lahjarasian avaaminen peruutettiin!",
-    "Rewarded": "Olet onnistuneesti avannut lahjarasiasi ja saanut palkintoja!"
+    "Rewarded": "Olet onnistuneesti avannut lahjarasiasi ja saanut palkintoja!",
+    "NoSpace": "Sinulla ei ole tilaa avata sitä."
   }
 }

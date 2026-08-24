@@ -2,6 +2,7 @@
   "GiftBox": {
     "ProgressBarText": "Deschidere %s",
     "Failed": "Deschiderea cutiei cadou a fost anulată!",
-    "Rewarded": "Ai deschis cu succes cutia ta cadou și ai primit recompense!"
+    "Rewarded": "Ai deschis cu succes cutia ta cadou și ai primit recompense!",
+    "NoSpace": "Nu ai loc să o deschizi."
   }
 }
