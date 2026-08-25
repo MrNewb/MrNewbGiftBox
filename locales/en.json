@@ -1,7 +1,7 @@
 {
   "GiftBox": {
     "ProgressBarText": "Opening %s",
-    "Failed": "You stopped opening the box.",
+    "Failed": "Canceled.",
     "Rewarded": "You opened the gift box.",
     "NoSpace": "You do not have room to open that."
   }
