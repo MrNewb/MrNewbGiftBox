@@ -4,6 +4,8 @@ Configurable gift boxes. Guaranteed items, one weighted extra via ox_lib selecto
 
 [Documentation](https://mrnewb.github.io/docs/mrnewbgiftbox) · [Install guide](https://mrnewb.github.io/docs/mrnewbgiftbox/install) · [Tebex](https://mrnewbscripts.tebex.io/package/6878322) · [Discord](https://discord.gg/mrnewbscripts)
 
+Documentation is available at https://mrnewb.github.io/docs/
+
 ![Gift box item](%5BINSTALL%5D/giftbox.png)
 
 ## Features
@@ -31,7 +33,7 @@ Register every key in `Config.GiftBoxes` as a usable item. The resource hooks th
 
 ## Config
 
-`configs/config.lua` is **server-only**. Higher `weight` is more likely.
+`resource/open/server/config.lua` is **server-only**. Higher `weight` is more likely.
 
 ```lua
 Config.GiftBoxes = {

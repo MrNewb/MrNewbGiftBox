@@ -5,21 +5,21 @@ lua54 'yes'
 name 'MrNewbGiftBox'
 author 'MrNewb'
 description 'Configurable gift box loot tables with optional cash rewards'
-version '1.0.1'
+version '1.1.0'
 
 shared_scripts {
     '@ox_lib/init.lua',
     '@Newb_Bridge/import.lua',
-    'resource/shared/locale.lua',
+    'resource/modules/core/shared/locale.lua',
 }
 
 client_scripts {
-    'resource/client/gift_box.lua',
+    'resource/modules/giftbox/client/gift_box.lua',
 }
 
 server_scripts {
-    'configs/config.lua',
-    'resource/server/gift_box.lua',
+    'resource/open/server/config.lua',
+    'resource/modules/giftbox/server/gift_box.lua',
 }
 
 files {
@@ -34,7 +34,7 @@ dependencies {
 }
 
 escrow_ignore {
-    'configs/*.lua',
+    'resource/open/**/*.lua',
     'locales/*.json',
     'resource/**/*.lua',
 }

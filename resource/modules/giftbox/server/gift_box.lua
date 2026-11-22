@@ -146,8 +146,8 @@ for giftBoxName in pairs(Config.GiftBoxes) do
         if bridge.inventory.getItemCount(src, giftBoxName) < 1 then return end
 
         local itemLabel = item.label or item.name or giftBoxName
-        local animationFinished = lib.callback.await('MrNewbGiftBox:Callback:PlayAnimation', src, itemLabel)
-        if not animationFinished then
+        local boxOpened = lib.callback.await('MrNewbGiftBox:Callback:OpenGiftBox', src, itemLabel)
+        if not boxOpened then
             bridge.notifications.notify(src, { description = locale('GiftBox.Failed'), type = 'error' })
             return
         end
@@ -169,6 +169,6 @@ for giftBoxName in pairs(Config.GiftBoxes) do
 end
 
 AddEventHandler('onResourceStart', function(resourceName)
-    if GetCurrentResourceName() ~= resourceName then return end
+    if cache.resource ~= resourceName then return end
     exports[bridge.name]:VersionCheck('MrNewb/patchnotes', resourceName)
 end)
