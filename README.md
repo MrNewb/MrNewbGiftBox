@@ -1,8 +1,12 @@
 # MrNewbGiftBox
 
+![MrNewbGiftBox](.github/assets/banner.webp)
+
 Configurable gift boxes. Guaranteed items, one weighted extra via ox_lib selector, optional cash.
 
-[Documentation](https://mrnewb.github.io/docs/mrnewbgiftbox) · [Install guide](https://mrnewb.github.io/docs/mrnewbgiftbox/install) · [Tebex](https://mrnewbscripts.tebex.io/package/6878322) · [Discord](https://discord.gg/mrnewbscripts)
+[Documentation](https://mrnewb.github.io/docs/mrnewbgiftbox) · [Install guide](https://mrnewb.github.io/docs/mrnewbgiftbox/install) · [Tebex](https://mrnewbscripts.tebex.io/package/6878322) · [Discord](https://discord.gg/mrnewbscripts) · [Short](https://www.youtube.com/shorts/vP-WgmYvv5Q)
+
+<a href="https://www.youtube.com/shorts/vP-WgmYvv5Q"><img src=".github/assets/short.webp" alt="MrNewbGiftBox on YouTube Shorts" width="200"></a>
 
 Documentation is available at https://mrnewb.github.io/docs/
 
