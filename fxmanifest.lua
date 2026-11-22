@@ -5,7 +5,7 @@ lua54 'yes'
 name 'MrNewbGiftBox'
 author 'MrNewb'
 description 'Configurable gift box loot tables with optional cash rewards'
-version '1.1.0'
+version '1.1.1'
 
 shared_scripts {
     '@ox_lib/init.lua',
@@ -34,7 +34,5 @@ dependencies {
 }
 
 escrow_ignore {
-    'resource/open/**/*.lua',
-    'locales/*.json',
-    'resource/**/*.lua',
+    '**/*',
 }
