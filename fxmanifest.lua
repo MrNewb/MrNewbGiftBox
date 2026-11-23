@@ -5,7 +5,7 @@ lua54 'yes'
 name 'MrNewbGiftBox'
 author 'MrNewb'
 description 'Configurable gift box loot tables with optional cash rewards'
-version '1.1.2'
+version '1.1.3'
 
 shared_scripts {
     '@ox_lib/init.lua',
